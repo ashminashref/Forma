@@ -1,0 +1,27 @@
+.cart-icon-small{
+    display: none;
+}
+
+.account{
+    display: none;
+}
+
+.nav-body{
+    background-color:rgba(255, 255, 255, 0.114);
+    backdrop-filter: blur(18px);
+}
+@media(max-width:800px){
+    .cart-icon-small{
+        display: block;
+    }
+    .cart-icon-large{
+        display: none;
+    }
+    .person-icon{
+        display: none;
+        visibility: hidden;
+    }
+    .account{
+        display: block;
+    }
+}

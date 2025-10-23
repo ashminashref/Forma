@@ -1,0 +1,15 @@
+.shop-btn:hover{
+    background-color: blue !important;
+
+}
+.shop-btn{
+    transition: ease-in-out 0.3s;
+}
+.product-img{
+        transition: ease 0.5s;
+
+}
+.product-img:hover{
+    transform: scale(1.05);
+    filter: grayscale();
+}

@@ -1,0 +1,39 @@
+.footer-logo{
+    font-size: 400px;
+    background: linear-gradient(to right,white,rgb(218, 179, 252));
+    -webkit-text-fill-color: transparent;
+    /* -webkit-backdrop-filter: text; */
+    -webkit-background-clip: text;
+}
+.copyright{
+    color: grey;
+}
+
+.footer-link{
+    color: white;
+    text-decoration: none;
+}
+.footer-link::before{
+    content: '';
+    width: 0;
+    height: 1px;
+    background-color: rgb(221, 221, 221);
+    position: absolute;
+    margin-top: 22px;
+    transition: ease-in-out 0.2s;
+}
+.footer-link:hover::before{
+width: 55px;
+cursor: pointer;
+}
+@media(max-width:800px){
+    .footer-logo{
+        font-size: 160px;
+    }
+}
+
+@media(max-width:400px){
+    .footer-logo{
+        font-size: 100px;
+    }
+}

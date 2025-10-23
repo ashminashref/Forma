@@ -1,0 +1,8 @@
+.material-img{
+    width: 400px;
+}
+@media(max-width:800px){
+    .material-img{
+        width: 200px;
+    }
+}
